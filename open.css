@@ -228,7 +228,7 @@ nav .logo a{
     display: flex;
     align-items: center;
     font-size: 15px;
-    text-align: center;
+    text-align: center; 
     border-radius: 50px;
     background: var(--bgGd04);
 }
@@ -410,13 +410,12 @@ span{
  #cta h1{
      color: #fff;
  }
- #cta a{
-     text-decoration: none;
- }
  
  #cta p{
      color: #fff;
  }
+
+
 
  #footer{
     width: 100%;
@@ -458,4 +457,16 @@ span{
       border: 1px solid #fff;
       background: #03301b;
       color: #fff;
+    }
+
+    #cta .btn-area a{
+        position: relative;
+        color: #fff;
+        padding: 10px 24px;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        text-align: center; 
+        border-radius: 50px;
+        background: var(--bgGd04);
     }
